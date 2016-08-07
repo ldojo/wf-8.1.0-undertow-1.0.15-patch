@@ -38,6 +38,13 @@ The script will make a backup of your current ```$WILDFLY_HOME/modules/system/la
 
 The backup will be named ```$WILDFLY_HOME/modules/system/layers/base/io/undertow/servlet/main/undertow-servlet-1.0.15.Final.jar.backup```
 
+Run this to patch:
+```
+export WILDFLY_HOME=[path to your wildfly 8.1.0.Final installation]
+curl  https://raw.githubusercontent.com/ldojo/wf-8.1.0-undertow-1.0.15-patch/master/wf-8.1.0-undertow-1.0.15-patch.sh | bash
+```
+
+
 
 
 
