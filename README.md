@@ -34,9 +34,9 @@ The diff of the fix patch is :
 
 You can patch your existing WF 8.1.0.Final installation with a simple bash shell script if you don't want to (or can't) upgrade your WF installation to > 8.2.*, which doesnt have this problem.
 
-The script will make a backup of your current ```$WILDFLY_HOME/wildfly-8.1.0.Final/modules/system/layers/base/io/undertow/servlet/main/undertow-servlet-1.0.15.Final.jar``` file, and replace it with the patched ```$WILDFLY_HOME/wildfly-8.1.0.Final/modules/system/layers/base/io/undertow/servlet/main/undertow-servlet-1.0.15.Final.jar```
+The script will make a backup of your current ```$WILDFLY_HOME/modules/system/layers/base/io/undertow/servlet/main/undertow-servlet-1.0.15.Final.jar``` file, and replace it with the patched ```$WILDFLY_HOME/modules/system/layers/base/io/undertow/servlet/main/undertow-servlet-1.0.15.Final.jar```
 
-The backup will be named ```$WILDFLY_HOME/wildfly-8.1.0.Final/modules/system/layers/base/io/undertow/servlet/main/undertow-servlet-1.0.15.Final.jar.backup```
+The backup will be named ```$WILDFLY_HOME/modules/system/layers/base/io/undertow/servlet/main/undertow-servlet-1.0.15.Final.jar.backup```
 
 
 
