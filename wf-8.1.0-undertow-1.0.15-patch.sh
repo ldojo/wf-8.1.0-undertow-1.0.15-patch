@@ -1,0 +1,1 @@
+echo $WILDFLY_HOME
